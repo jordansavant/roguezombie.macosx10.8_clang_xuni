@@ -1,0 +1,10 @@
+1. Ensure your OS is up to date.
+
+2. Install Xcode 5 from the app store. Xcode will come bundled with the Command Line Tools necessary to compile SFML applications.
+
+3. Copy the contents of the unpacked Frameworks/ directory to /Library/Frameworks/
+
+4. Copy the SFML dependencies sndfile.framework and freetype.framework from extlibs/ to /Library/Frameworks/
+
+5. Open a terminal and run the install script located within xcode/templates/ or copy the SFML folder to /Library/Developer/Xcode/Templates/
+    sudo ./install.sh
