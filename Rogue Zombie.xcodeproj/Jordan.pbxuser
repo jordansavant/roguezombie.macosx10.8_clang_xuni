@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	17E6526618AAECE1004EF1AF /* Rogue Zombie */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Rogue Zombie";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	17E6526F18AAECE6004EF1AF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	17E6527018AAECE6004EF1AF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	17F88B3C18AAE818006F5CDD /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 17E6526618AAECE1004EF1AF /* Rogue Zombie */;
+		activeTarget = 17F88B4418AAE818006F5CDD /* Rogue Zombie */;
+		codeSenseManager = 17E6527018AAECE6004EF1AF /* Code sense */;
+		executables = (
+			17E6526618AAECE1004EF1AF /* Rogue Zombie */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 413854945;
+			PBXWorkspaceStateSaveDate = 413854945;
+		};
+		sourceControlManager = 17E6526F18AAECE6004EF1AF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	17F88B4418AAE818006F5CDD /* Rogue Zombie */ = {
+		activeExec = 0;
+		executables = (
+			17E6526618AAECE1004EF1AF /* Rogue Zombie */,
+		);
+	};
+}

@@ -1,0 +1,3 @@
+[submodule "Rogue Zombie/roguezombie"]
+	path = Rogue Zombie/roguezombie
+	url = skeleton@192.168.0.195:~/repos/roguezombie.git
