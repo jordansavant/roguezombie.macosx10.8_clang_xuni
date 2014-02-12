@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1740C9A818AB101B00336CB0 /* cpd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1740C9A418AB101B00336CB0 /* cpd.cpp */; };
+		1740C9AB18AB105200336CB0 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1740C9AA18AB105200336CB0 /* ResourcePath.mm */; };
 		17F88B5118AAE818006F5CDD /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17F88B5018AAE818006F5CDD /* cute_image.jpg */; };
 		17F88B5318AAE818006F5CDD /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 17F88B5218AAE818006F5CDD /* nice_music.ogg */; };
 		17F88B5518AAE818006F5CDD /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17F88B5418AAE818006F5CDD /* sansation.ttf */; };
@@ -18,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1740C9A418AB101B00336CB0 /* cpd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpd.cpp; sourceTree = "<group>"; };
+		1740C9A518AB101B00336CB0 /* cpd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpd.h; sourceTree = "<group>"; };
+		1740C9A618AB101B00336CB0 /* ResourcePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResourcePath.cpp; sourceTree = "<group>"; };
+		1740C9A718AB101B00336CB0 /* ResourcePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcePath.h; sourceTree = "<group>"; };
+		1740C9AA18AB105200336CB0 /* ResourcePath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		17F88B4518AAE818006F5CDD /* Rogue Zombie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rogue Zombie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F88B4918AAE818006F5CDD /* Rogue Zombie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rogue Zombie-Info.plist"; sourceTree = "<group>"; };
 		17F88B4A18AAE818006F5CDD /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
@@ -97,6 +104,11 @@
 		17F88B5D18AAE8EC006F5CDD /* roguezombie */ = {
 			isa = PBXGroup;
 			children = (
+				1740C9AA18AB105200336CB0 /* ResourcePath.mm */,
+				1740C9A418AB101B00336CB0 /* cpd.cpp */,
+				1740C9A518AB101B00336CB0 /* cpd.h */,
+				1740C9A618AB101B00336CB0 /* ResourcePath.cpp */,
+				1740C9A718AB101B00336CB0 /* ResourcePath.h */,
 				17F88B5E18AAE8EC006F5CDD /* bitengine */,
 				17F88B6318AAE8EC006F5CDD /* content */,
 				17F88B6518AAE8EC006F5CDD /* main.cpp */,
@@ -206,9 +218,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1740C9AB18AB105200336CB0 /* ResourcePath.mm in Sources */,
 				17F88B6718AAE8EC006F5CDD /* Foo.cpp in Sources */,
 				17F88B6618AAE8EC006F5CDD /* Bar.cpp in Sources */,
 				17F88B6918AAE8EC006F5CDD /* main.cpp in Sources */,
+				1740C9A818AB101B00336CB0 /* cpd.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

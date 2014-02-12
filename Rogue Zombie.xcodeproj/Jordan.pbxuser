@@ -57,7 +57,7 @@
 					20,
 					341,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -72,8 +72,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 413854945;
-			PBXWorkspaceStateSaveDate = 413854945;
+			PBXPerProjectTemplateStateSaveDate = 413862807;
+			PBXWorkspaceStateSaveDate = 413862807;
 		};
 		sourceControlManager = 17E6526F18AAECE6004EF1AF /* Source Control */;
 		userBuildSettings = {
