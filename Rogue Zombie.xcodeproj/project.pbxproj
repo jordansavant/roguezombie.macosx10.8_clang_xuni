@@ -9,12 +9,25 @@
 /* Begin PBXBuildFile section */
 		1740C9A818AB101B00336CB0 /* cpd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1740C9A418AB101B00336CB0 /* cpd.cpp */; };
 		1740C9AB18AB105200336CB0 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1740C9AA18AB105200336CB0 /* ResourcePath.mm */; };
+		17E3DF0618ACF4D10051DBBC /* MusicManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DED618AC6BD80051DBBC /* MusicManager.cpp */; };
+		17E3DF0718ACF4D10051DBBC /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DED818AC6BD80051DBBC /* SoundManager.cpp */; };
+		17E3DF0818ACF4D10051DBBC /* GameComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEDB18AC6BD80051DBBC /* GameComponent.cpp */; };
+		17E3DF0918ACF4D10051DBBC /* GameTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEDD18AC6BD80051DBBC /* GameTimer.cpp */; };
+		17E3DF0A18ACF4D10051DBBC /* Vertex3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEE018AC6BD80051DBBC /* Vertex3.cpp */; };
+		17E3DF0B18ACF4D10051DBBC /* Vertex3Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEE218AC6BD80051DBBC /* Vertex3Array.cpp */; };
+		17E3DF0C18ACF4D10051DBBC /* VertexHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEE418AC6BD80051DBBC /* VertexHelper.cpp */; };
+		17E3DF0D18ACF4D10051DBBC /* VertexMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEE618AC6BD80051DBBC /* VertexMap.cpp */; };
+		17E3DF0E18ACF4D10051DBBC /* InputBinding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEE918AC6BD80051DBBC /* InputBinding.cpp */; };
+		17E3DF0F18ACF4D10051DBBC /* InputBindingVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEEB18AC6BD80051DBBC /* InputBindingVector.cpp */; };
+		17E3DF1018ACF4D10051DBBC /* InputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEED18AC6BD80051DBBC /* InputManager.cpp */; };
+		17E3DF1118ACF4D10051DBBC /* XinputGamepad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEEF18AC6BD80051DBBC /* XinputGamepad.cpp */; };
+		17E3DF1218ACF4F80051DBBC /* MathX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEF118AC6BD80051DBBC /* MathX.cpp */; };
+		17E3DF1318ACF4F80051DBBC /* VectorMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E3DEF618AC6BD80051DBBC /* VectorMath.cpp */; };
+		17E3DF1518ACFADB0051DBBC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E3DF1418ACFADB0051DBBC /* OpenGL.framework */; };
 		17F88B5118AAE818006F5CDD /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17F88B5018AAE818006F5CDD /* cute_image.jpg */; };
 		17F88B5318AAE818006F5CDD /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 17F88B5218AAE818006F5CDD /* nice_music.ogg */; };
 		17F88B5518AAE818006F5CDD /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17F88B5418AAE818006F5CDD /* sansation.ttf */; };
 		17F88B5718AAE818006F5CDD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17F88B5618AAE818006F5CDD /* icon.png */; };
-		17F88B6618AAE8EC006F5CDD /* Bar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17F88B5F18AAE8EC006F5CDD /* Bar.cpp */; };
-		17F88B6718AAE8EC006F5CDD /* Foo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17F88B6118AAE8EC006F5CDD /* Foo.cpp */; };
 		17F88B6818AAE8EC006F5CDD /* Zombie.png in Resources */ = {isa = PBXBuildFile; fileRef = 17F88B6418AAE8EC006F5CDD /* Zombie.png */; };
 		17F88B6918AAE8EC006F5CDD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17F88B6518AAE8EC006F5CDD /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -25,6 +38,37 @@
 		1740C9A618AB101B00336CB0 /* ResourcePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResourcePath.cpp; sourceTree = "<group>"; };
 		1740C9A718AB101B00336CB0 /* ResourcePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcePath.h; sourceTree = "<group>"; };
 		1740C9AA18AB105200336CB0 /* ResourcePath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		17E3DED618AC6BD80051DBBC /* MusicManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MusicManager.cpp; sourceTree = "<group>"; };
+		17E3DED718AC6BD80051DBBC /* MusicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicManager.h; sourceTree = "<group>"; };
+		17E3DED818AC6BD80051DBBC /* SoundManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundManager.cpp; sourceTree = "<group>"; };
+		17E3DED918AC6BD80051DBBC /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		17E3DEDB18AC6BD80051DBBC /* GameComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameComponent.cpp; sourceTree = "<group>"; };
+		17E3DEDC18AC6BD80051DBBC /* GameComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameComponent.h; sourceTree = "<group>"; };
+		17E3DEDD18AC6BD80051DBBC /* GameTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameTimer.cpp; sourceTree = "<group>"; };
+		17E3DEDE18AC6BD80051DBBC /* GameTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTimer.h; sourceTree = "<group>"; };
+		17E3DEE018AC6BD80051DBBC /* Vertex3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vertex3.cpp; sourceTree = "<group>"; };
+		17E3DEE118AC6BD80051DBBC /* Vertex3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex3.h; sourceTree = "<group>"; };
+		17E3DEE218AC6BD80051DBBC /* Vertex3Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vertex3Array.cpp; sourceTree = "<group>"; };
+		17E3DEE318AC6BD80051DBBC /* Vertex3Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex3Array.h; sourceTree = "<group>"; };
+		17E3DEE418AC6BD80051DBBC /* VertexHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VertexHelper.cpp; sourceTree = "<group>"; };
+		17E3DEE518AC6BD80051DBBC /* VertexHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexHelper.h; sourceTree = "<group>"; };
+		17E3DEE618AC6BD80051DBBC /* VertexMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VertexMap.cpp; sourceTree = "<group>"; };
+		17E3DEE718AC6BD80051DBBC /* VertexMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexMap.h; sourceTree = "<group>"; };
+		17E3DEE918AC6BD80051DBBC /* InputBinding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputBinding.cpp; sourceTree = "<group>"; };
+		17E3DEEA18AC6BD80051DBBC /* InputBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputBinding.h; sourceTree = "<group>"; };
+		17E3DEEB18AC6BD80051DBBC /* InputBindingVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputBindingVector.cpp; sourceTree = "<group>"; };
+		17E3DEEC18AC6BD80051DBBC /* InputBindingVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputBindingVector.h; sourceTree = "<group>"; };
+		17E3DEED18AC6BD80051DBBC /* InputManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputManager.cpp; sourceTree = "<group>"; };
+		17E3DEEE18AC6BD80051DBBC /* InputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputManager.h; sourceTree = "<group>"; };
+		17E3DEEF18AC6BD80051DBBC /* XinputGamepad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XinputGamepad.cpp; sourceTree = "<group>"; };
+		17E3DEF018AC6BD80051DBBC /* XinputGamepad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XinputGamepad.h; sourceTree = "<group>"; };
+		17E3DEF118AC6BD80051DBBC /* MathX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MathX.cpp; sourceTree = "<group>"; };
+		17E3DEF218AC6BD80051DBBC /* MathX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathX.h; sourceTree = "<group>"; };
+		17E3DEF418AC6BD80051DBBC /* Pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pool.h; sourceTree = "<group>"; };
+		17E3DEF518AC6BD80051DBBC /* Quadtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quadtree.h; sourceTree = "<group>"; };
+		17E3DEF618AC6BD80051DBBC /* VectorMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorMath.cpp; sourceTree = "<group>"; };
+		17E3DEF718AC6BD80051DBBC /* VectorMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorMath.h; sourceTree = "<group>"; };
+		17E3DF1418ACFADB0051DBBC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		17F88B4518AAE818006F5CDD /* Rogue Zombie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rogue Zombie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F88B4918AAE818006F5CDD /* Rogue Zombie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rogue Zombie-Info.plist"; sourceTree = "<group>"; };
 		17F88B4A18AAE818006F5CDD /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
@@ -34,10 +78,6 @@
 		17F88B5218AAE818006F5CDD /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		17F88B5418AAE818006F5CDD /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		17F88B5618AAE818006F5CDD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		17F88B5F18AAE8EC006F5CDD /* Bar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bar.cpp; sourceTree = "<group>"; };
-		17F88B6018AAE8EC006F5CDD /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
-		17F88B6118AAE8EC006F5CDD /* Foo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Foo.cpp; sourceTree = "<group>"; };
-		17F88B6218AAE8EC006F5CDD /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
 		17F88B6418AAE8EC006F5CDD /* Zombie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zombie.png; sourceTree = "<group>"; };
 		17F88B6518AAE8EC006F5CDD /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,15 +87,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E3DF1518ACFADB0051DBBC /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17E3DED518AC6BD80051DBBC /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				17E3DED618AC6BD80051DBBC /* MusicManager.cpp */,
+				17E3DED718AC6BD80051DBBC /* MusicManager.h */,
+				17E3DED818AC6BD80051DBBC /* SoundManager.cpp */,
+				17E3DED918AC6BD80051DBBC /* SoundManager.h */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		17E3DEDA18AC6BD80051DBBC /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				17E3DEDB18AC6BD80051DBBC /* GameComponent.cpp */,
+				17E3DEDC18AC6BD80051DBBC /* GameComponent.h */,
+				17E3DEDD18AC6BD80051DBBC /* GameTimer.cpp */,
+				17E3DEDE18AC6BD80051DBBC /* GameTimer.h */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		17E3DEDF18AC6BD80051DBBC /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				17E3DEE018AC6BD80051DBBC /* Vertex3.cpp */,
+				17E3DEE118AC6BD80051DBBC /* Vertex3.h */,
+				17E3DEE218AC6BD80051DBBC /* Vertex3Array.cpp */,
+				17E3DEE318AC6BD80051DBBC /* Vertex3Array.h */,
+				17E3DEE418AC6BD80051DBBC /* VertexHelper.cpp */,
+				17E3DEE518AC6BD80051DBBC /* VertexHelper.h */,
+				17E3DEE618AC6BD80051DBBC /* VertexMap.cpp */,
+				17E3DEE718AC6BD80051DBBC /* VertexMap.h */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		17E3DEE818AC6BD80051DBBC /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				17E3DEE918AC6BD80051DBBC /* InputBinding.cpp */,
+				17E3DEEA18AC6BD80051DBBC /* InputBinding.h */,
+				17E3DEEB18AC6BD80051DBBC /* InputBindingVector.cpp */,
+				17E3DEEC18AC6BD80051DBBC /* InputBindingVector.h */,
+				17E3DEED18AC6BD80051DBBC /* InputManager.cpp */,
+				17E3DEEE18AC6BD80051DBBC /* InputManager.h */,
+				17E3DEEF18AC6BD80051DBBC /* XinputGamepad.cpp */,
+				17E3DEF018AC6BD80051DBBC /* XinputGamepad.h */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		17E3DEF318AC6BD80051DBBC /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				17E3DEF418AC6BD80051DBBC /* Pool.h */,
+				17E3DEF518AC6BD80051DBBC /* Quadtree.h */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
 		17F88B3B18AAE818006F5CDD = {
 			isa = PBXGroup;
 			children = (
+				17E3DF1418ACFADB0051DBBC /* OpenGL.framework */,
 				17F88B4718AAE818006F5CDD /* Rogue Zombie */,
 				17F88B4618AAE818006F5CDD /* Products */,
 			);
@@ -119,10 +222,15 @@
 		17F88B5E18AAE8EC006F5CDD /* bitengine */ = {
 			isa = PBXGroup;
 			children = (
-				17F88B5F18AAE8EC006F5CDD /* Bar.cpp */,
-				17F88B6018AAE8EC006F5CDD /* Bar.h */,
-				17F88B6118AAE8EC006F5CDD /* Foo.cpp */,
-				17F88B6218AAE8EC006F5CDD /* Foo.h */,
+				17E3DED518AC6BD80051DBBC /* Audio */,
+				17E3DEDA18AC6BD80051DBBC /* Game */,
+				17E3DEDF18AC6BD80051DBBC /* Graphics */,
+				17E3DEE818AC6BD80051DBBC /* Input */,
+				17E3DEF118AC6BD80051DBBC /* MathX.cpp */,
+				17E3DEF218AC6BD80051DBBC /* MathX.h */,
+				17E3DEF318AC6BD80051DBBC /* Structures */,
+				17E3DEF618AC6BD80051DBBC /* VectorMath.cpp */,
+				17E3DEF718AC6BD80051DBBC /* VectorMath.h */,
 			);
 			path = bitengine;
 			sourceTree = "<group>";
@@ -219,10 +327,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1740C9AB18AB105200336CB0 /* ResourcePath.mm in Sources */,
-				17F88B6718AAE8EC006F5CDD /* Foo.cpp in Sources */,
-				17F88B6618AAE8EC006F5CDD /* Bar.cpp in Sources */,
+				17E3DF0618ACF4D10051DBBC /* MusicManager.cpp in Sources */,
+				17E3DF0E18ACF4D10051DBBC /* InputBinding.cpp in Sources */,
+				17E3DF1218ACF4F80051DBBC /* MathX.cpp in Sources */,
+				17E3DF0C18ACF4D10051DBBC /* VertexHelper.cpp in Sources */,
+				17E3DF1318ACF4F80051DBBC /* VectorMath.cpp in Sources */,
+				17E3DF0A18ACF4D10051DBBC /* Vertex3.cpp in Sources */,
+				17E3DF0718ACF4D10051DBBC /* SoundManager.cpp in Sources */,
+				17E3DF1118ACF4D10051DBBC /* XinputGamepad.cpp in Sources */,
 				17F88B6918AAE8EC006F5CDD /* main.cpp in Sources */,
+				17E3DF0D18ACF4D10051DBBC /* VertexMap.cpp in Sources */,
 				1740C9A818AB101B00336CB0 /* cpd.cpp in Sources */,
+				17E3DF0B18ACF4D10051DBBC /* Vertex3Array.cpp in Sources */,
+				17E3DF1018ACF4D10051DBBC /* InputManager.cpp in Sources */,
+				17E3DF0818ACF4D10051DBBC /* GameComponent.cpp in Sources */,
+				17E3DF0918ACF4D10051DBBC /* GameTimer.cpp in Sources */,
+				17E3DF0F18ACF4D10051DBBC /* InputBindingVector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +457,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Rogue Zombie/Rogue Zombie-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -345,6 +473,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Rogue Zombie/Rogue Zombie-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
