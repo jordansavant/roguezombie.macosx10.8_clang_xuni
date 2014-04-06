@@ -5,48 +5,48 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4846FBE0-C832-4BB5-B20C-6A1D5A87842A</string>
+	<string>70362FC9-BBD6-4AC7-80FA-0BB31270FD33</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Rogue Zombie</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>302EFE72-1252-483A-82BB-63D49E4676BF</key>
-		<string>skeleton@jordansavant.dyndns-home.com:~/repos/roguezombie.git</string>
-		<key>64C78AFF-D5AC-464D-A0C6-C673C8C6A5A9</key>
-		<string>skeleton@jordansavant.dyndns-home.com:~/repos/roguezombie.MacOSX10.8_Clang_xUni.git</string>
+		<key>5B6E07FA-918D-42FA-884D-2A189AE8C463</key>
+		<string>skeleton@192.168.0.194:~/repos/roguezombie.git</string>
+		<key>E00440FE-90D9-4416-AEF7-8FEADD9F69E3</key>
+		<string>skeleton@192.168.0.194:~/repos/roguezombie.MacOSX10.8_Clang_xUni.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Rogue Zombie.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>302EFE72-1252-483A-82BB-63D49E4676BF</key>
+		<key>5B6E07FA-918D-42FA-884D-2A189AE8C463</key>
 		<string>../../Rogue Zombie/roguezombie</string>
-		<key>64C78AFF-D5AC-464D-A0C6-C673C8C6A5A9</key>
+		<key>E00440FE-90D9-4416-AEF7-8FEADD9F69E3</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>skeleton@jordansavant.dyndns-home.com:~/repos/roguezombie.MacOSX10.8_Clang_xUni.git</string>
+	<string>skeleton@192.168.0.194:~/repos/roguezombie.MacOSX10.8_Clang_xUni.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>64C78AFF-D5AC-464D-A0C6-C673C8C6A5A9</string>
+	<string>E00440FE-90D9-4416-AEF7-8FEADD9F69E3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>302EFE72-1252-483A-82BB-63D49E4676BF</string>
+			<string>E00440FE-90D9-4416-AEF7-8FEADD9F69E3</string>
 			<key>IDESourceControlWCCName</key>
-			<string>roguezombie</string>
+			<string>Game</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>64C78AFF-D5AC-464D-A0C6-C673C8C6A5A9</string>
+			<string>5B6E07FA-918D-42FA-884D-2A189AE8C463</string>
 			<key>IDESourceControlWCCName</key>
-			<string>roguezombie.MacOSX10</string>
+			<string>roguezombie</string>
 		</dict>
 	</array>
 </dict>
