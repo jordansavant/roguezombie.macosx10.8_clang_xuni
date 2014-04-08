@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172A7F2D18F489AF00E9E53B /* homespun.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 172A7F2A18F489AF00E9E53B /* homespun.ttf */; };
+		172A7F2E18F489AF00E9E53B /* minititle.png in Resources */ = {isa = PBXBuildFile; fileRef = 172A7F2B18F489AF00E9E53B /* minititle.png */; };
+		172A7F2F18F489AF00E9E53B /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 172A7F2C18F489AF00E9E53B /* title.png */; };
+		172A7F3618F489D400E9E53B /* Interior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 172A7F3118F489D400E9E53B /* Interior.cpp */; };
+		172A7F3718F489D400E9E53B /* StartMainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 172A7F3418F489D400E9E53B /* StartMainMenu.cpp */; };
+		172A7F3E18F489E300E9E53B /* StateGamePlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 172A7F3818F489E300E9E53B /* StateGamePlay.cpp */; };
+		172A7F3F18F489E300E9E53B /* StateGameStart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 172A7F3A18F489E300E9E53B /* StateGameStart.cpp */; };
+		172A7F4018F489E300E9E53B /* StateServerPlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 172A7F3C18F489E300E9E53B /* StateServerPlay.cpp */; };
+		172A7F4318F489FD00E9E53B /* FadeEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 172A7F4118F489FD00E9E53B /* FadeEffect.cpp */; };
+		172A7F4618F48A1400E9E53B /* VideoGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 172A7F4418F48A1400E9E53B /* VideoGame.cpp */; };
 		17AD859518F1B72400E07461 /* MusicManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD84F218F1B72400E07461 /* MusicManager.cpp */; };
 		17AD859618F1B72400E07461 /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD84F418F1B72400E07461 /* SoundManager.cpp */; };
 		17AD859718F1B72400E07461 /* FrameTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD84F818F1B72400E07461 /* FrameTimer.cpp */; };
@@ -59,14 +69,12 @@
 		17AD85C618F1B72400E07461 /* ZombieClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD856E18F1B72400E07461 /* ZombieClient.cpp */; };
 		17AD85C718F1B72400E07461 /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD857018F1B72400E07461 /* Command.cpp */; };
 		17AD85C818F1B72400E07461 /* GameplayServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD857218F1B72400E07461 /* GameplayServer.cpp */; };
-		17AD85C918F1B72400E07461 /* GameplayState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD857418F1B72400E07461 /* GameplayState.cpp */; };
 		17AD85CA18F1B72400E07461 /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD857618F1B72400E07461 /* Level.cpp */; };
 		17AD85CB18F1B72400E07461 /* LevelClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD857818F1B72400E07461 /* LevelClient.cpp */; };
 		17AD85CC18F1B72400E07461 /* Light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD857C18F1B72400E07461 /* Light.cpp */; };
 		17AD85CD18F1B72400E07461 /* Minimap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD857E18F1B72400E07461 /* Minimap.cpp */; };
 		17AD85CE18F1B72400E07461 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD858018F1B72400E07461 /* Player.cpp */; };
 		17AD85CF18F1B72400E07461 /* RogueZombieGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD858218F1B72400E07461 /* RogueZombieGame.cpp */; };
-		17AD85D018F1B72400E07461 /* StartMenuState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD858418F1B72400E07461 /* StartMenuState.cpp */; };
 		17AD85D118F1B72400E07461 /* Structure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD858618F1B72400E07461 /* Structure.cpp */; };
 		17AD85D218F1B72400E07461 /* Door.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD858918F1B72400E07461 /* Door.cpp */; };
 		17AD85D318F1B72400E07461 /* DoorClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17AD858B18F1B72400E07461 /* DoorClient.cpp */; };
@@ -87,6 +95,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		172A7F2A18F489AF00E9E53B /* homespun.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = homespun.ttf; sourceTree = "<group>"; };
+		172A7F2B18F489AF00E9E53B /* minititle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minititle.png; sourceTree = "<group>"; };
+		172A7F2C18F489AF00E9E53B /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		172A7F3118F489D400E9E53B /* Interior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interior.cpp; sourceTree = "<group>"; };
+		172A7F3218F489D400E9E53B /* Interior.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Interior.hpp; sourceTree = "<group>"; };
+		172A7F3418F489D400E9E53B /* StartMainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StartMainMenu.cpp; sourceTree = "<group>"; };
+		172A7F3518F489D400E9E53B /* StartMainMenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StartMainMenu.hpp; sourceTree = "<group>"; };
+		172A7F3818F489E300E9E53B /* StateGamePlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StateGamePlay.cpp; sourceTree = "<group>"; };
+		172A7F3918F489E300E9E53B /* StateGamePlay.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StateGamePlay.hpp; sourceTree = "<group>"; };
+		172A7F3A18F489E300E9E53B /* StateGameStart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StateGameStart.cpp; sourceTree = "<group>"; };
+		172A7F3B18F489E300E9E53B /* StateGameStart.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StateGameStart.hpp; sourceTree = "<group>"; };
+		172A7F3C18F489E300E9E53B /* StateServerPlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StateServerPlay.cpp; sourceTree = "<group>"; };
+		172A7F3D18F489E300E9E53B /* StateServerPlay.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StateServerPlay.hpp; sourceTree = "<group>"; };
+		172A7F4118F489FD00E9E53B /* FadeEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FadeEffect.cpp; sourceTree = "<group>"; };
+		172A7F4218F489FD00E9E53B /* FadeEffect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FadeEffect.hpp; sourceTree = "<group>"; };
+		172A7F4418F48A1400E9E53B /* VideoGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoGame.cpp; sourceTree = "<group>"; };
+		172A7F4518F48A1400E9E53B /* VideoGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VideoGame.hpp; sourceTree = "<group>"; };
 		17AD84F218F1B72400E07461 /* MusicManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MusicManager.cpp; sourceTree = "<group>"; };
 		17AD84F318F1B72400E07461 /* MusicManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MusicManager.hpp; sourceTree = "<group>"; };
 		17AD84F418F1B72400E07461 /* SoundManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundManager.cpp; sourceTree = "<group>"; };
@@ -206,8 +231,6 @@
 		17AD857118F1B72400E07461 /* Command.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Command.hpp; sourceTree = "<group>"; };
 		17AD857218F1B72400E07461 /* GameplayServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameplayServer.cpp; sourceTree = "<group>"; };
 		17AD857318F1B72400E07461 /* GameplayServer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameplayServer.hpp; sourceTree = "<group>"; };
-		17AD857418F1B72400E07461 /* GameplayState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameplayState.cpp; sourceTree = "<group>"; };
-		17AD857518F1B72400E07461 /* GameplayState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameplayState.hpp; sourceTree = "<group>"; };
 		17AD857618F1B72400E07461 /* Level.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Level.cpp; sourceTree = "<group>"; };
 		17AD857718F1B72400E07461 /* Level.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Level.hpp; sourceTree = "<group>"; };
 		17AD857818F1B72400E07461 /* LevelClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LevelClient.cpp; sourceTree = "<group>"; };
@@ -222,8 +245,6 @@
 		17AD858118F1B72400E07461 /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
 		17AD858218F1B72400E07461 /* RogueZombieGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RogueZombieGame.cpp; sourceTree = "<group>"; };
 		17AD858318F1B72400E07461 /* RogueZombieGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RogueZombieGame.hpp; sourceTree = "<group>"; };
-		17AD858418F1B72400E07461 /* StartMenuState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StartMenuState.cpp; sourceTree = "<group>"; };
-		17AD858518F1B72400E07461 /* StartMenuState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StartMenuState.hpp; sourceTree = "<group>"; };
 		17AD858618F1B72400E07461 /* Structure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Structure.cpp; sourceTree = "<group>"; };
 		17AD858718F1B72400E07461 /* Structure.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Structure.hpp; sourceTree = "<group>"; };
 		17AD858918F1B72400E07461 /* Door.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Door.cpp; sourceTree = "<group>"; };
@@ -265,6 +286,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		172A7F3018F489D400E9E53B /* levels */ = {
+			isa = PBXGroup;
+			children = (
+				172A7F3118F489D400E9E53B /* Interior.cpp */,
+				172A7F3218F489D400E9E53B /* Interior.hpp */,
+			);
+			path = levels;
+			sourceTree = "<group>";
+		};
+		172A7F3318F489D400E9E53B /* menus */ = {
+			isa = PBXGroup;
+			children = (
+				172A7F3418F489D400E9E53B /* StartMainMenu.cpp */,
+				172A7F3518F489D400E9E53B /* StartMainMenu.hpp */,
+			);
+			path = menus;
+			sourceTree = "<group>";
+		};
 		17AD84F018F1B72400E07461 /* bitengine */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +346,8 @@
 		17AD84F718F1B72400E07461 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				172A7F4418F48A1400E9E53B /* VideoGame.cpp */,
+				172A7F4518F48A1400E9E53B /* VideoGame.hpp */,
 				17AD84F818F1B72400E07461 /* FrameTimer.cpp */,
 				17AD84F918F1B72400E07461 /* FrameTimer.hpp */,
 				17AD84FA18F1B72400E07461 /* Game.cpp */,
@@ -349,6 +390,8 @@
 		17AD851718F1B72400E07461 /* Gui */ = {
 			isa = PBXGroup;
 			children = (
+				172A7F4118F489FD00E9E53B /* FadeEffect.cpp */,
+				172A7F4218F489FD00E9E53B /* FadeEffect.hpp */,
 				17AD851818F1B72400E07461 /* Checkbox.cpp */,
 				17AD851918F1B72400E07461 /* Checkbox.hpp */,
 				17AD851A18F1B72400E07461 /* Container.cpp */,
@@ -459,6 +502,14 @@
 		17AD856218F1B72400E07461 /* game */ = {
 			isa = PBXGroup;
 			children = (
+				172A7F3818F489E300E9E53B /* StateGamePlay.cpp */,
+				172A7F3918F489E300E9E53B /* StateGamePlay.hpp */,
+				172A7F3A18F489E300E9E53B /* StateGameStart.cpp */,
+				172A7F3B18F489E300E9E53B /* StateGameStart.hpp */,
+				172A7F3C18F489E300E9E53B /* StateServerPlay.cpp */,
+				172A7F3D18F489E300E9E53B /* StateServerPlay.hpp */,
+				172A7F3018F489D400E9E53B /* levels */,
+				172A7F3318F489D400E9E53B /* menus */,
 				17AD856318F1B72400E07461 /* Body.cpp */,
 				17AD856418F1B72400E07461 /* Body.hpp */,
 				17AD856518F1B72400E07461 /* Character.cpp */,
@@ -468,8 +519,6 @@
 				17AD857118F1B72400E07461 /* Command.hpp */,
 				17AD857218F1B72400E07461 /* GameplayServer.cpp */,
 				17AD857318F1B72400E07461 /* GameplayServer.hpp */,
-				17AD857418F1B72400E07461 /* GameplayState.cpp */,
-				17AD857518F1B72400E07461 /* GameplayState.hpp */,
 				17AD857618F1B72400E07461 /* Level.cpp */,
 				17AD857718F1B72400E07461 /* Level.hpp */,
 				17AD857818F1B72400E07461 /* LevelClient.cpp */,
@@ -484,8 +533,6 @@
 				17AD858118F1B72400E07461 /* Player.hpp */,
 				17AD858218F1B72400E07461 /* RogueZombieGame.cpp */,
 				17AD858318F1B72400E07461 /* RogueZombieGame.hpp */,
-				17AD858418F1B72400E07461 /* StartMenuState.cpp */,
-				17AD858518F1B72400E07461 /* StartMenuState.hpp */,
 				17AD858618F1B72400E07461 /* Structure.cpp */,
 				17AD858718F1B72400E07461 /* Structure.hpp */,
 				17AD858818F1B72400E07461 /* structures */,
@@ -531,6 +578,9 @@
 		17AD85DF18F1BA6A00E07461 /* content */ = {
 			isa = PBXGroup;
 			children = (
+				172A7F2A18F489AF00E9E53B /* homespun.ttf */,
+				172A7F2B18F489AF00E9E53B /* minititle.png */,
+				172A7F2C18F489AF00E9E53B /* title.png */,
 				17AD85E018F1BA6A00E07461 /* Agency.ttf */,
 				17AD85E118F1BA6A00E07461 /* spritesheet_01.csv */,
 				17AD85E218F1BA6A00E07461 /* spritesheet_01.png */,
@@ -643,12 +693,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				17AD85E418F1BA6A00E07461 /* spritesheet_01.csv in Resources */,
+				172A7F2E18F489AF00E9E53B /* minititle.png in Resources */,
 				17AD85E518F1BA6A00E07461 /* spritesheet_01.png in Resources */,
 				17AD85E318F1BA6A00E07461 /* Agency.ttf in Resources */,
+				172A7F2F18F489AF00E9E53B /* title.png in Resources */,
 				17F88B5718AAE818006F5CDD /* icon.png in Resources */,
 				17F88B5518AAE818006F5CDD /* sansation.ttf in Resources */,
 				17F88B5318AAE818006F5CDD /* nice_music.ogg in Resources */,
 				17F88B5118AAE818006F5CDD /* cute_image.jpg in Resources */,
+				172A7F2D18F489AF00E9E53B /* homespun.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,11 +733,13 @@
 				17AD85CA18F1B72400E07461 /* Level.cpp in Sources */,
 				17AD85A818F1B72400E07461 /* Effect.cpp in Sources */,
 				17AD859918F1B72400E07461 /* GameComponent.cpp in Sources */,
+				172A7F3E18F489E300E9E53B /* StateGamePlay.cpp in Sources */,
 				17AD85A218F1B72400E07461 /* Vertex3Array.cpp in Sources */,
 				17AD85A918F1B72400E07461 /* Element.cpp in Sources */,
 				17AD85BE18F1B72400E07461 /* ServerPacket.cpp in Sources */,
 				17AD85C218F1B72400E07461 /* Character.cpp in Sources */,
 				17AD85C818F1B72400E07461 /* GameplayServer.cpp in Sources */,
+				172A7F4618F48A1400E9E53B /* VideoGame.cpp in Sources */,
 				17AD85D418F1B72400E07461 /* Wall.cpp in Sources */,
 				17AD859518F1B72400E07461 /* MusicManager.cpp in Sources */,
 				17AD85B518F1B72400E07461 /* Shadowcaster.cpp in Sources */,
@@ -713,10 +768,12 @@
 				17AD859F18F1B72400E07461 /* Sprite.cpp in Sources */,
 				17AD85D618F1B72400E07461 /* Tile.cpp in Sources */,
 				17AD85C418F1B72400E07461 /* OgreClient.cpp in Sources */,
+				172A7F3718F489D400E9E53B /* StartMainMenu.cpp in Sources */,
 				17AD85CB18F1B72400E07461 /* LevelClient.cpp in Sources */,
 				17AD85A418F1B72400E07461 /* VertexMap.cpp in Sources */,
+				172A7F4018F489E300E9E53B /* StateServerPlay.cpp in Sources */,
 				17AD85A018F1B72400E07461 /* SpriteLoader.cpp in Sources */,
-				17AD85D018F1B72400E07461 /* StartMenuState.cpp in Sources */,
+				172A7F3618F489D400E9E53B /* Interior.cpp in Sources */,
 				17AD859B18F1B72400E07461 /* State.cpp in Sources */,
 				17AD85CD18F1B72400E07461 /* Minimap.cpp in Sources */,
 				17AD859818F1B72400E07461 /* Game.cpp in Sources */,
@@ -731,15 +788,16 @@
 				17AD85C018F1B72400E07461 /* Output.cpp in Sources */,
 				17AD85D518F1B72400E07461 /* WallClient.cpp in Sources */,
 				17AD85BD18F1B72400E07461 /* Server.cpp in Sources */,
+				172A7F4318F489FD00E9E53B /* FadeEffect.cpp in Sources */,
 				17AD85AF18F1B72400E07461 /* InputBinding.cpp in Sources */,
 				17AD85BF18F1B72400E07461 /* FileSystem.cpp in Sources */,
 				17AD85D218F1B72400E07461 /* Door.cpp in Sources */,
 				17AD859A18F1B72400E07461 /* GameTimer.cpp in Sources */,
 				17AD85B118F1B72400E07461 /* InputManager.cpp in Sources */,
 				17AD85B618F1B72400E07461 /* Math.cpp in Sources */,
+				172A7F3F18F489E300E9E53B /* StateGameStart.cpp in Sources */,
 				17AD85BA18F1B72400E07461 /* ClientPacket.cpp in Sources */,
 				17AD85BC18F1B72400E07461 /* RemoteClient.cpp in Sources */,
-				17AD85C918F1B72400E07461 /* GameplayState.cpp in Sources */,
 				17AD85A518F1B72400E07461 /* Checkbox.cpp in Sources */,
 				17AD85B918F1B72400E07461 /* VectorMath.cpp in Sources */,
 				17AD85CE18F1B72400E07461 /* Player.cpp in Sources */,
